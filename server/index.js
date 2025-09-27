@@ -137,22 +137,6 @@ app.post('/status-update',async(req,res)=>{
 
 
 
-//     const id = req.params.id;
-//     console.log("Deleting id:", id);
-
-//     tasks.findByIdAndDelete(id)  // yaha `{_id: id}` dene ki zarurat nahi hai
-//         .then((deletedTask) => {
-//             if (!deletedTask) {
-//                 return res.status(404).json({ msg: "Task not found" });
-//             }
-//             res.json({ msg: "Deleted successfully", deletedTask });
-//         })
-//         .catch((err) => {
-//             console.error(err);
-//             res.status(500).json({ msg: "Server error", error: err });
-//         });
-// });
-
 
 
 
